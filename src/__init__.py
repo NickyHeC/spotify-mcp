@@ -1,0 +1,1 @@
+"""Spotify MCP Server package."""

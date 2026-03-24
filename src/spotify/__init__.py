@@ -1,0 +1,1 @@
+"""Spotify API integration module."""
