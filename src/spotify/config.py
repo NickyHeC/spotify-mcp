@@ -13,7 +13,7 @@ from dedalus_mcp.auth import Connection, SecretKeys
 
 
 spotify = Connection(
-    name="spotify",
+    name="spotify-mcp",
     secrets=SecretKeys(token="SPOTIFY_ACCESS_TOKEN"),
     base_url="https://api.spotify.com",
     auth_header_format="Bearer {api_key}",

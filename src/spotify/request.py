@@ -45,7 +45,7 @@ async def spotify_api_request(
             path = f"{endpoint}?{urlencode(filtered)}"
 
     resp = await ctx.dispatch(
-        "spotify",
+        "spotify-mcp",
         HttpRequest(
             method=HttpMethod(method),
             path=path,
